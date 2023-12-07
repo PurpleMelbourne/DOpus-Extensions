@@ -1,0 +1,44 @@
+New Directory Opus Commands for OpenAI API Integration:
+Purpose: These commands enable seamless interaction with the OpenAI API from within Directory Opus.
+
+1. opengpt-file:
+
+    • Function: Sends the selected file content to the OpenAI API for processing.
+    • Example: opengpt-file --action=summarize
+    • Why: Generates summaries, translations, or other text-based outputs based on the file content.
+2. opengpt-context:
+
+    • Function: Sends the selected directory structure and files as context for the OpenAI API query.
+    • Example: opengpt-context --action=generate-code [file.txt]
+    • Why: Provides relevant context for tasks like code generation, script writing, or email composition.
+3. opengpt-query:
+
+    • Function: Allows users to directly input their query for the OpenAI API.
+    • Example: opengpt-query --prompt="Write a poem about space exploration"
+    • Why: Offers flexibility for various use cases without relying on file content or context.
+4. opengpt-response:
+
+    • Function: Displays the OpenAI API response in a user-friendly format within Directory Opus.
+    • Example: opengpt-response --format=text
+    • Why: Provides easy access and interpretation of the API response without needing external tools.
+5. opengpt-configure:
+
+    • Function: Opens the configuration panel for adjusting API settings, preferences, and parameters.
+    • Example: opengpt-configure
+    • Why: Enables users to customize their OpenAI API integration within Directory Opus.
+6. opengpt-help:
+
+    • Function: Provides access to comprehensive help documentation for all OpenAI API integration features.
+    • Example: opengpt-help --command=opengpt-context
+    • Why: Ensures smooth learning and troubleshooting for users of all skill levels.
+7. opengpt-feedback:
+
+    • Function: Allows users to submit feedback and report issues directly from Directory Opus.
+    • Example: opengpt-feedback --message="I encountered an error while processing a file."
+    • Why: Facilitates ongoing improvement and user-centric development of the OpenAI API integration.
+8. opengpt-update:
+
+    • Function: Checks for and installs updates to the OpenAI API integration features.
+    • Example: opengpt-update
+    • Why: Ensures users have access to the latest functionalities and bug fixes.
+These new commands empower users to leverage the power of the OpenAI API directly within their workflow, enhancing their productivity and creativity.
